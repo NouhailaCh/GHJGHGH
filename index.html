@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script defer src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <title>SKY TRAVELING</title>
+</head>
+
+<body>
+    <div style="
+        background-image: url(./images/TOP.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      ">
+        <div style="
+          background-image: url(./images/download.svg);
+          background-size: cover;
+          background-position: center;
+          height: 150px;
+        ">
+            <nav>
+                <div class="logo">
+                    <img src="images/LOGO2.jpg"   width="50"   class="ml-3 d-block mx-auto rounded-circle"  />
+                </div>
+                <button style="position: absolute; right: 0; margin: 1rem 2rem" id="toggle">
+            <img src="./images/baseline_menu_black_24dp.png" alt="" />
+          </button>
+                <div class="explore">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#tour">OUR TOURS</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#">CONTACTS</a></li>
+                        <li>
+                            <a href="#"><img src="images/sea.png" id="sea"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="humb" class="navigate">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">OUR TOURS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACTS</a></li>
+                <li><a href="#">SEARCH</a></li>
+
+            </ul>
+        </div>
+
+        <div class="hy1" id="home">
+            <h1 class="text-center">Let's Discover The World Together!</h1>
+            <p id="ll">ENJOY THE BEST DESTINATIONS WITH OUR TRAVEL AGENCY </p>
+            
+        </div>
+        <div id="TRAVELING" class="section">
+            <div class="section-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="TRAVELING-form">
+                            <div class="form-header">
+                                <h2 style="color: white;">Make your reservation</h2> 
+                            </div>
+                            <form>
+                                <div class="form-group"> <input class="form-control" type="text" placeholder="Country, city..."> <span class="form-label">Destination</span> </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">Check In</span> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">Check out</span> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <input class="form-control" type="email" placeholder="Enter your Email"> <span class="form-label">Email</span> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <input class="form-control" type="tel" placeholder="Enter you Phone"> <span class="form-label">Phone</span> </div>
+                                    </div>
+                                </div>
+                                <div class="form-btn"> <button class="submit-btn"> SEARCH FLIGHT</button> </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img id="a" src="images/3S.png" class="w-100 img-fluid d-block " alt="">
+        </div>
+
+    </div>
+
+   <div class="container" id="tour">
+    <h2 style="text-align: center;">Our Proposals</h2>
+    <br>
+    <br>
+    <br>
+   
+    <div class="container m-auto card-deck" id="div">
+
+        <div class="card" id="div1">
+            <img src="images/Kapadokya, Türkiye.jpg" class="card-img-top" style="height: 200px;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kapadokya, Türkiye</h5>
+                <p class="card-text">is an area in Central Anatolia in Turkey best known for its unique moon-like landscape, underground cities, cave churches and houses carved in the rocks.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card" id="div2">
+            <img src="images/London.jpg" class="card-img-top" style="height: 200px;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">London, United Kingdom</h5>
+                <p class="card-text">London is a diverse and exciting city with some of the world's best sights, attractions and activities.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card" id="div3">
+            <img src="images/Paris.jpeg" class="card-img-top" style="height: 200px;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Paris, France</h5>
+                <p class="card-text">Paris is one of top-rated European cities – people usually try to spend there as much time as possible, and you also may be lucky enough to spend an autumn house-sitting there. </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <div style="background-image: url(images/croatia1.jpg); background-size: cover;  background-position: center; width: 100%; background-attachment: fixed;">
+        <div style="background-image: url(images/download.svg); background-size: cover; background-position: center; height: 150px;">
+        </div>
+        <div class="hy">
+            <img id="M" src="images/ta-icon-1.png" alt="" srcset="">
+            <h1 id="l"> 24/7 SUPPORT</h1>
+            <p id="ll">Our Support Service is available 24 hours a day,<br> 7 days a week to help you buy your tickets.</p>
+            <button id="btn">GET IN TOUCH </button>
+        </div>
+        <div>
+            <img id="N" src="images/3S.png" class="w-100" alt="">
+        </div>
+    </div>
+    <div class="container" id="blog">
+        <h2 style="text-align: center;">Discover New Paradise</h2>
+        <br> 
+        <br>
+    
+    <div class="card-deck">
+
+        <div class="card">
+            <img src="images/croatiaa1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">City walls, Dubrovnik , Croatia</h5>
+                <p class="card-text">is considered one of the top 10 places to visit around the world. It also voted the most beautiful national parks in the world.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/maldives.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Maldives</h5>
+                <p class="card-text">Among the top 10 reasons to visit the Maldives will be to make the best out of water sports like kayaking, canoeing, sea bobbing, jet-skiing etc...</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/PALAWAN.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Palawan Island, Philippines</h5>
+                <p class="card-text">Palawan is the best island destination in Asia region. If you ever came to Palawan, you must visit the Calauit Game Preserve and peaceful wildlife sanctuaries. And also got to El Nido and Coron Island.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <div style="background-image: url(images/iceback.jpg); background-size: cover;  background-position: center; width: 100%; background-attachment: fixed;">
+        <div style="background-image: url(images/download.svg); background-size: cover; background-position: center; height: 150px;">
+        </div>
+        <div class="hy">
+            <img id="M" src="images/International-Travel_43678.ico" alt="" srcset="">
+            <h1 id="l">Travel Most Popular <br> In The World</h1>
+            <p id="ll">BUILD YOUR NEXT HOLIDAY WITH US</p>
+            <button id="btn">GET IN TOUCH </button>
+        </div>
+        <div>
+            <img id="N" src="images/3S.png" class="w-100" alt="">
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h1 style="text-align: center;">What Can We Do For You </h1>
+        <br> <br>
+    <div class="card-deck">
+
+        <div class="card" style="border: 0;">
+            <img src="images/fo.jpg" class="card-img-top w-25 h-25" style="margin-left:120px;margin-top: 20px;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Food&Bed</h5>
+                <p class="card-text text-center"> Food tourism is composed of activities that provide experiences of consumption and appreciation of food and beverages, presented in such a way that value the history, the culture and the environment of a particular region.</p>
+            </div>
+            
+        </div>
+        <div class="card" style="border: 0;">
+            <img src="images/compass.png" class="card-img-top w-25 h-25" style="margin-left:120px;margin-top: 20px;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Travel Guide</h5>
+                <p class="card-text text-center">Even if you spend hours searching the Internet or reading guide books, you will never really know the lesser-known places of interest.That why we are providing you good guide can tell you all the best places frequented by the locals and how to experience your trip as a true insider. </p>
+            </div>
+            
+        </div>
+        <div class="card" style="border: 0;">
+            <img src="images/voi.jpg" class="card-img-top w-25 h-25" style="margin-left:120px;margin-top: 20px;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Transport</h5>
+                <p class="card-text text-center">We have a range of transports that we provide so you can use to travel to various destinations: Road - private car, coach, taxi, bus, bicycle.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="background-image: url(images/finally.jpg); background-size: cover;  background-position: center; width: 100%; background-attachment: fixed;">
+        <div style="background-image: url(images/download.svg); background-size: cover; background-position: center; height: 150px;">
+        </div>
+        <div class="hy">
+            <img id="M" src="images/ta-icon-1.png" alt="" srcset="">
+            <h1 id="l">First-class Impressions are Waiting for You!</h1>
+            <p id="ll">Our agency offers travelers various tours  <br> and excursions with destinations all over the world.   <br> Browse our website to find your dream tour! </p>
+            <button id="btn">SEARCH A FLIGHT NOOOOW!!!</button>
+        </div>
+        <div>
+            <img id="l" src="images/foo.png" class="w-100" alt="">
+        </div>
+    </div>
+    <div style="background-color: #2C2C2C;">
+        NOUHA BII
+        <br>
+
+    </div>
+    <script src="js/script.js"></script>
+
+
+
+
+    <div class="footer-wrapper d-flex flex-row justify-content-between">
+        <div>
+        <div class="footer-section-one">
+          <div class="footer-heading"><h2>Get In Touch</h2></div>
+        </div>
+
+         <div class="footer-contact-box">
+          <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
+          <div class="footer-contact-text">
+            <p><a href="tel:+212-6456-78965">+212-6456-78965</a></p>
+          </div>
+          <div class="clr"></div>
+        </div>
+
+         <div class="footer-contact-box">
+          <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+          <div class="footer-contact-text">
+            <p><a href="mailto:SN.GIRLSCODING@gmail.com">SN.GIRLSCODING@gmail.com</a></p>
+          </div>
+          <div class="clr"></div>
+        </div>
+
+        <div class="footer-social-icons">
+          <ul>
+            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+
+        </div>
+
+
+
+
+        <div class="footer-section-three">
+            <div class="footer-heading"><h2>Get in touch</h2></div>
+             <div class="footer-form">
+               <form method="post" action="#">
+                 <div class="footer-form-box">
+                   <input type="text" class="footer-form-style" placeholder="Name">
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="text" class="footer-form-style" placeholder="Email">
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="text" class="footer-form-style" placeholder="Phone Number">
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="submit" class="footer-form-submit-style" value="SUBMIT">
+                 </div>
+               </form>
+             </div>
+          </div>
+        </div>
+    </div>
+</body>
+
+</html>
